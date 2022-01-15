@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ReactComponent as DropdownArrow} from "../img/svg/DropdownArrow.svg"
 
 export const Header = () => {
@@ -8,7 +8,7 @@ export const Header = () => {
     return (
             <header className='header'>
                 <div className='header-wrapper'>
-                    <Link to='/contacts'className='header-button'>Заказать дизайн</Link>
+                    <Link to='/contacts' className='header-button'>Заказать дизайн</Link>
                     <div 
                         className='header-wrapper-groupname' 
                         onClick={() => setDropdownActive(!dropdownActive)}
@@ -18,7 +18,9 @@ export const Header = () => {
                         <img src={require('../img/Avatar.png')}/>
                             
                             <nav className={dropdownActive ? 'header-dropdown header-dropdown_active' : 'header-dropdown '}>
-                                <h1>dropdown</h1>
+                                <Link to='/works'>Работы</Link>
+                                <Link to='/skills'>Навыки</Link>
+                                <Link to='/'>ENG</Link>
                             </nav>
                     </div>
                     

@@ -6,6 +6,7 @@ import Mainpage from "./pages/Mainpage";
 import Workspage from "./pages/Workspage";
 import Contacts from "./pages/Contacts";
 import Notfoundpage from './pages/Notfoundpage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path='/contacts' element={<Contacts/>}/>
       <Route path='*' element={<Notfoundpage/>}/>
     </Routes>
+    <Footer/>
     </>
   );
 }
