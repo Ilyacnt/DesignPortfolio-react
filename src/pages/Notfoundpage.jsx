@@ -2,7 +2,7 @@ import React from 'react'
 
 const Notfoundpage = () => {
     return (
-        <div>
+        <div className="main-container">
             error 404
         </div>
     )

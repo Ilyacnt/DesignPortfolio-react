@@ -141,7 +141,30 @@ html, body {
 // CONTAINER
 
 .main-container {
-  border: 5px solid $black;
   margin: $marginTB $marginLR;
-  height: 800px;
+}
+
+
+// WORK CARD
+
+.work-card {
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  border: 5px solid $black;
+
+
+  .work-more-btn {
+    color: $black;
+    font-size: 1.8em;
+    text-align: right;
+    float: right;
+  }
+
+  .work-description {
+    font-weight: normal;
+  }
+
+  
 }
