@@ -18,6 +18,8 @@ export const Header = () => {
                         <img src={require('../img/Avatar.png')}/>
                             
                             <nav className={dropdownActive ? 'header-dropdown header-dropdown_active' : 'header-dropdown '}>
+                                <Link to='/contacts' className='dropdown-button'>Заказать дизайн</Link>
+                                <Link to='/'>Главная</Link>
                                 <Link to='/works'>Работы</Link>
                                 <Link to='/skills'>Навыки</Link>
                                 <Link to='/'>ENG</Link>

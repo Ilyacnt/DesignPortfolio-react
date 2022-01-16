@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+    <div className="wrapper">
     <Header/>
     <Routes>
       <Route path='/' element={<Mainpage/>}/>
@@ -18,6 +19,7 @@ function App() {
       <Route path='/contacts' element={<Contacts/>}/>
       <Route path='*' element={<Notfoundpage/>}/>
     </Routes>
+    </div>
     <Footer/>
     </>
   );
