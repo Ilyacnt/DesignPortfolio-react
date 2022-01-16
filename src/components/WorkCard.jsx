@@ -1,15 +1,19 @@
 import React from 'react'
 import Masonry from 'react-masonry-css'
 import { Link } from 'react-router-dom'
+import Image from './Image'
 
 const WorkCard = ({work}) => {
 
     const breakpointColumnsObj = {
         default: 3,
         1980: 3,
-        700: 1,
+        1330: 2,
+        768: 1,
       }
 
+    
+    
     return (
         <div className="main-container">
             <div className="work-card">
@@ -21,7 +25,12 @@ const WorkCard = ({work}) => {
                     columnClassName="my-masonry-grid_column"
                 >
                     {work.img.map((src) => (
-                        <img key={src} src={src} alt={work.title + ' image'} className="project-image"></img>
+                        <Image 
+                            key={src} 
+                            src={src} 
+                            alt={work.title + ' image'} 
+                            className={"project-image"} 
+                        />
                     ))}
                 </Masonry>
                 <Link className='work-more-btn' to={'/'}>Подробнее...</Link>

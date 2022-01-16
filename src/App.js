@@ -1,6 +1,6 @@
 import './App.scss';
 import { Header } from './components/Header';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Mainpage from "./pages/Mainpage";
 import Workspage from "./pages/Workspage";

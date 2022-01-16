@@ -7,26 +7,27 @@ const Mainpage = () => {
             title: 'Дизайн интернет-магазина',
             description: 'Разработка дизайна для курсового проекта',
             img: [
-                'https://www.meme-arsenal.com/memes/85e5ea4117c51f3ebf97ed43de74d509.jpg',
+                'https://i.pinimg.com/originals/04/3a/c1/043ac1c287a23e1f9be4f3b2b90e6d07.jpg',
                 'https://pp.userapi.com/c844618/v844618323/177545/hjT9kCaf1oo.jpg',
-                'https://coub-anubis-a.akamaized.net/coub_storage/coub/simple/cw_timeline_pic/2b1af998027/ea09166d133dff7fbcd8d/med_1589558379_image.jpg',
+                'https://p4.wallpaperbetter.com/wallpaper/647/969/308/anime-girls-leggings-original-characters-pantyhose-wallpaper-preview.jpg',
                 'http://pm1.narvii.com/6879/0ab96fb3bec2b8d644f0db99cbd37ff56d2c6072r1-500-500v2_uhq.jpg',
                 'https://listanime.ru/uploads/news_avatar/909_1.jpg',
-                'https://i.pinimg.com/564x/89/33/44/89334429922809d274915d9a1f382027.jpg'
+                'https://image.winudf.com/v2/image/Y29tLmFuaW1lLmdpcmxzX3NjcmVlbnNob3RzXzBfZmRjZjFmMGY/screen-0.jpg?fakeurl=1&type=.jpg'
             ]
         },
         {
             title: 'Title',
             description: 'Description',
             img: [
-                'https://anime-chan.me/uploads/posts/2020-11/1604253954_ihdroklb-he.jpg',
-                'https://i.pinimg.com/736x/fa/74/f4/fa74f4628acca51e0f1619489516eeb6.jpg',
-                'https://i.pinimg.com/550x/54/a4/e3/54a4e35728cb110e2689035aa099a683.jpg',
-                'https://klike.net/uploads/posts/2020-07/1595663824_1.jpg'
+                'https://i.pinimg.com/originals/2c/e1/9f/2ce19fe6b7c7b9125c023cbfc25953b6.jpg',
+                'https://i1.sndcdn.com/artworks-000355104990-xfp9o2-t500x500.jpg',
+                'https://pm1.narvii.com/7848/a2b31bd2289f2008ed7e091a6e07a64f62127582r1-500-500v2_00.jpg',
+                'https://cdna.artstation.com/p/assets/images/images/037/617/002/large/helloimtea-zero-two-1-1k.jpg?1620845475',
+                'https://en.memesrandom.com/wp-content/uploads/2021/02/cosplay-asuka-brasileira.jpg',
+                'https://avatarfiles.alphacoders.com/306/thumb-1920-306193.jpg'
             ]
         },
     ]
-    
     
     return (
         <>
